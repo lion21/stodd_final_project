@@ -1,0 +1,289 @@
+ /*
+Susan Todd
+final_project
+
+
+*/
+/*=====================================================*/
+<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="css/main.css">
+
+* , *:before, *:after {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+/*center the web page*/
+/*center the pg*/
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+/*========================Body====================================================*/
+body{
+
+	/*margin:30;*/
+	background: #FAFAFA;/*off white*/
+}
+/*========================Header====================================================*/
+header{
+
+	width:100%;
+	height:100%;
+	/*background:#333;*/
+
+}div #pic{
+
+	/*position:relative;*/
+	/*left:150px;*/
+	
+}
+/*=======================TITLE FOR PROJECT/CONTACT PAGE============================*/
+div #heading{
+
+	position:relative;
+	top:0px;
+	left:340px;
+	
+}
+
+
+/*
+div #pic{
+
+	position:absolute;
+	left:185px;
+	top:75px;
+	padding-left: 100px;
+	z-index:-1;
+	width:960px;
+	height:500px;
+}
+*/
+/*========================Nav====================================================*/
+div #nav {
+	
+	width:960px;
+	height:100px;
+	background:#FAFAFA;
+	/*position: relative;*/
+}
+div #nav a{
+
+	color: #000;
+	text-decoration: none;
+	position: relative;
+	top:42px;
+	left:698px;
+	margin:5px 5px 5px 0px;/*top, right, bottom left*/
+	padding: 20px 10px;/*button padding*/
+	background-color: #FFF;
+	transition:background-color 0.3s ease;/*easing for color transition on mouse over*/
+}
+div #nav > a[target]{
+	background-color: #000;
+	color:#FAFAFA;
+}
+div #nav > a:hover{
+
+	background-color:#625e35;
+	
+}
+/*=============this is the outer content div for row 1 and row 2=========*/
+#content{
+	position:relative;
+	top:3px;
+	padding-top:50px;
+	padding-left: 45px;
+	background:#FAFAFA;
+
+}
+/*=============this is the content div for row 1=====Design Development=Planning=========*/
+#content-row-1{
+	
+}
+/*=============this is the first row of columns=====Design Development=Planning=========*/
+#one-three ,#two-three ,#three-three {
+
+	float:left;
+ 	width:275px;
+ 	padding:10px;
+ 	text-align:center;
+}
+/*=============this is the content div for 2nd row== Blog and About=============*/
+#content-row-2{
+
+	clear:both;
+	display:inline-block;
+	padding-top:50px;
+	margin-left: 17px;
+}
+/*=============this is the 2nd row of columns== Blog and About=============*/
+#two-one{
+
+	float:left;
+	width:575px;
+
+	text-align:left;
+
+}
+#two-two{
+
+	float:left;
+	width:275px;
+	/*padding:10px;*/
+	margin-left: 20px;
+	text-align:left;
+}
+#two-two  p, #two-one p {
+	margin-left: 0;/*lining up paragraph text with h2 and image*/
+	text-align:left;
+}
+#two-one h2, #two-two h2 {
+
+	position:relative;
+	right:30px;
+}
+h1, h2 , h3, h4 {
+
+	margin:10px;
+	padding:20px;
+	color:#333;/*gold*/
+
+}
+/*==================GALLERY ========================*/
+#content-projects{
+	margin-left: 50px;
+	
+}
+#project-row-1, #project-row-2, #project-row-3 {
+	padding-top:0px;
+	
+}
+#proj-one-one ,#proj-one-two ,#proj-one-three,#proj-two-one ,#proj-two-two ,#proj-two-three ,#proj-three-one ,#proj-three-two ,#proj-three-three {
+
+	float:left;
+ 	width:260px;
+ 	padding:20px;
+}
+/*==========content for 404 page========================================*/
+#content-error h2{
+	position:relative;
+	right:20px;
+}
+#content-error a:link{
+	color:#625e35 ;
+}
+/*==========paragraph style=========================*/
+p{
+	font-size:1.2em;
+	color:#656262;/*GREY*/
+	margin:10px;
+}
+/*===========spans colors===========================*/
+/*.red{
+	color:#C02A12;
+}*/
+.white{
+
+	color:#FAFAFA;
+
+}
+
+.special{
+		color: #272626;
+
+}  
+/*===========move the footer into place=============*/
+#footer{
+	position:relative;
+	top:50px;
+	clear:both;
+	background:#030303 ;/*ALMOST  BLACK*/
+	height:350px;
+	width:100%;
+}
+div #footer-content{
+	position:relative;
+	top:25px;
+
+
+}
+
+/*div #footer-title{
+
+	
+}*/
+div #footer-text{
+
+	border-bottom:1px solid #272626;
+}
+
+#footer h3{
+	position: relative;
+	top:25px;
+	left:405px;
+	font-size: 1.4em;
+	
+}
+#footer p{
+
+	position: relative;
+	top:50px;
+	left:318px;
+	font-size: .9em;
+
+}
+
+div #social{
+
+	height:100px;
+	width:960px;
+	padding:15px;
+	position:relative;
+	top:75px;
+	left:325px;
+
+	
+}
+div #social img{
+
+	display: inline-block;
+}
+/*================Form============================*/
+div #contact_us{
+
+	width:400px;
+	display:block;
+	padding:5px;
+}
+div #contact{
+	position:relative;
+
+	
+}
+#email , #name{
+
+	padding: 5px;
+	margin-bottom: 10px;
+
+}
+form p {
+
+	position: relative;
+	top:5px;
+	left:138px;/*position buttons*/
+	
+}
+/*
+form #submit{
+	background:#F5E0C7;
+}
+*/
+#message{
+	
+		padding: 5px;
+	    margin-bottom: 10px;
+
+}
